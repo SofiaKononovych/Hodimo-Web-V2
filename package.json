@@ -1,0 +1,51 @@
+{
+  "name": "webpack-hw",
+  "version": "1.0.0",
+  "description": "**Installation**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "start": "webpack serve --mode=development --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/plugin-transform-runtime": "^7.18.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^8.4.1",
+    "css-loader": "^6.11.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "prettier": "^2.7.1",
+    "sass": "^1.54.9",
+    "sass-loader": "^13.3.3",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.2"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.19.0",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "axios": "^1.8.3",
+    "body-parser": "^1.20.3",
+    "bootstrap": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^18.2.0"
+  },
+  "type": "commonjs"
+}
